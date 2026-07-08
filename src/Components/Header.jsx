@@ -14,7 +14,7 @@ const Header = () => {
             <div className="flex justify-between bg-yellow-400 h-[70px] md:pr-[110px] md:pl-[50px]">
                 <div className="flex items-center">
                     <img src={logo} className="object-contain w-auto h-[70px]" alt="FashionFlow Logo"/>
-                    <h1 className="text-2xl font-bold -ml-5">FashionFlow</h1>
+                    <h1 className="text-2xl font-bold -ml-5 cursor-pointer">FashionFlow</h1>
                 </div>
 
                 <div>
@@ -27,7 +27,7 @@ const Header = () => {
                 </div>
 
                 <div className="hidden md:flex items-center gap-6">
-                    <button className="px-6 py-2 bg-red-300 rounded-full hover:bg-red-400">Login</button>
+                    <button className="px-6 py-2 bg-red-300 rounded-full hover:bg-red-400 font-medium">Login</button>
                     <Link to={"/"} className="font-semibold">Cart</Link>
                 </div>
 
